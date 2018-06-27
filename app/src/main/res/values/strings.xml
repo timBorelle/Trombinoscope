@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Trombinoscope</string>
+    <string name="bouton_trombi">Trombinoscope</string>
+    <string name="bouton_config">Config</string>
+    <string name="firstname">First name</string>
+    <string name="surname">surname</string>
+    <string name="insertColor">color (int)</string>
+    <string name="ajouter_p">ajouter personne</string>
+
+</resources>
