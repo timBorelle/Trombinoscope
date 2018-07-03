@@ -9,5 +9,6 @@
     <string name="insertColorG">green (int)</string>
     <string name="insertColorB">blue (int)</string>
     <string name="ajouter_p">ajouter personne</string>
+    <string name="action_refresh">Delete</string>
 
 </resources>

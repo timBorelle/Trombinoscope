@@ -8,4 +8,5 @@ public class PersonneItemHolder {
     public TextView firstName;
     public TextView lastName;
     public ImageView couleur;
+    public ImageView imgCancel;
 }

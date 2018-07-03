@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getBaseContext(), b.getText().toString(), Toast.LENGTH_SHORT).show();*/
                 Intent intent = new Intent(MainActivity.this, ConfigActivity.class);
                 MainActivity.this.startActivity(intent);
+
             }
         });
     }
