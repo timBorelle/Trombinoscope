@@ -1,11 +1,12 @@
-package timothee.trombinoscope;
+package timothee.trombinoscope.activity;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
+
+import timothee.trombinoscope.R;
 
 public class MainActivity extends AppCompatActivity {
 

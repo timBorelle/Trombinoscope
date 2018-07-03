@@ -1,4 +1,4 @@
-package timothee.trombinoscope;
+package timothee.trombinoscope.sqlite;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

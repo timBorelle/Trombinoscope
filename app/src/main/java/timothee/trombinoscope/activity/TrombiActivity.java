@@ -1,21 +1,13 @@
-package timothee.trombinoscope;
+package timothee.trombinoscope.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
-
-import java.util.ArrayList;
-import java.util.List;
 
 import timothee.trombinoscope.DAO.IPersonData;
 import timothee.trombinoscope.DAO.PersonDataDAO;
-import timothee.trombinoscope.DAO.PersonSQLLiteDAO;
+import timothee.trombinoscope.R;
 import timothee.trombinoscope.adapter.PersonneAdapter;
-import timothee.trombinoscope.data.DataPerson;
-import timothee.trombinoscope.dto.Person;
 
 public class TrombiActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package timothee.trombinoscope;
+package timothee.trombinoscope.activity;
 
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import timothee.trombinoscope.DAO.PersonDataDAO;
+import timothee.trombinoscope.R;
 import timothee.trombinoscope.dto.Person;
 
 public class ConfigActivity extends AppCompatActivity {
