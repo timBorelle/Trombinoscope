@@ -14,9 +14,9 @@ public class DataPerson {
     Person p3 = new Person("Val", "Lecouple", Color.parseColor("#00ff88"));*/
 
     public static List<Person> persons = new ArrayList<Person>(){{
-        add(new Person("Timothée", "Borelle", Color.RED));
-        add(new Person("Yann", "Toqué", Color.parseColor("#00ff00")));
-        add(new Person("Val", "Lecouple", Color.parseColor("#00ff88")));
+        add(new Person("Timothée", "Borelle", Color.rgb(79, 19, 6)));
+        add(new Person("Yann", "Toqué", Color.rgb(220, 51, 14)));
+        add(new Person("Val", "Lecouple", Color.rgb(241, 215, 32)));
     }};
 
     /*public DataPerson(){

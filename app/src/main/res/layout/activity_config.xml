@@ -39,11 +39,28 @@
         android:orientation="horizontal">
 
         <EditText
-            android:id="@+id/editTextColor"
-            android:hint="@string/insertColor"
+            android:id="@+id/editTextColorR"
+            android:inputType="number"
+            android:hint="@string/insertColorR"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/editTextColorG"
+            android:inputType="number"
+            android:hint="@string/insertColorG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/editTextColorB"
+            android:hint="@string/insertColorB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"/>
     </LinearLayout>
 
     <LinearLayout

@@ -12,12 +12,21 @@
         android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/bouton_trombi"/>
+        android:layout_marginTop="10px"
+        android:text="@string/bouton_trombi"
+        android:textAlignment="center"/>
 
-    <TextView
+    <!--TextView
         android:id="@+id/textViewList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=""/>
+        android:text=""/-->
+
+    <ListView
+        android:drawSelectorOnTop="true"
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10px"/>
 
 </LinearLayout>
