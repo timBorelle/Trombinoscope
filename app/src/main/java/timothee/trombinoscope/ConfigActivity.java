@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import timothee.trombinoscope.DAO.PersonDataDAO;
+import timothee.trombinoscope.dto.Person;
 
 public class ConfigActivity extends AppCompatActivity {
 
@@ -18,6 +19,8 @@ public class ConfigActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        final PersonDataDAO personDAO = new PersonDataDAO();
+        //personDAO = new PersonDataDAO(PersonDBHelper.getInstance(this));
         setContentView(R.layout.activity_config);
 
         prenom = findViewById(R.id.editTextPrenom);
@@ -30,7 +33,7 @@ public class ConfigActivity extends AppCompatActivity {
         ajouterP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                PersonDataDAO personDAO = new PersonDataDAO();
+
                 int r = Integer.parseInt(red.getText().toString());
                 int g = Integer.parseInt(green.getText().toString());
                 int b = Integer.parseInt(blue.getText().toString());;

@@ -2,7 +2,7 @@ package timothee.trombinoscope.DAO;
 
 import java.util.List;
 
-import timothee.trombinoscope.Person;
+import timothee.trombinoscope.dto.Person;
 
 public interface IPersonData {
 

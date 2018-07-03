@@ -1,6 +1,4 @@
-package timothee.trombinoscope;
-
-import android.graphics.Color;
+package timothee.trombinoscope.dto;
 
 public class Person {
 

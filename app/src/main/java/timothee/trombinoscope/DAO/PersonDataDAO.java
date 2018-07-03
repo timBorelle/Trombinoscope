@@ -3,8 +3,8 @@ package timothee.trombinoscope.DAO;
 import java.util.ArrayList;
 import java.util.List;
 
-import timothee.trombinoscope.DataPerson;
-import timothee.trombinoscope.Person;
+import timothee.trombinoscope.data.DataPerson;
+import timothee.trombinoscope.dto.Person;
 
 public class PersonDataDAO implements IPersonData{
 

@@ -1,10 +1,11 @@
-package timothee.trombinoscope;
+package timothee.trombinoscope.data;
 
 import android.graphics.Color;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import timothee.trombinoscope.dto.Person;
 
 public class DataPerson {
 
