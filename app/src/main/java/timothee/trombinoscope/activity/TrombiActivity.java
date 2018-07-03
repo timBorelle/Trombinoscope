@@ -92,7 +92,8 @@ public class TrombiActivity extends AppCompatActivity {
                     selectedPersons.add(person);
                 } else {
                     Log.i(TAG, "UNSELECT");
-                    arg0.getChildAt(pos).setBackgroundColor(Color.WHITE);
+                    //arg0.getChildAt(pos).setBackgroundColor(Color.WHITE);
+                    arg0.getChildAt(pos).setBackgroundColor(Color.TRANSPARENT);
                     Log.i(TAG, "UNSET MARKER");
 
                     if(selectedChilds.contains(child))
