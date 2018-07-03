@@ -22,8 +22,8 @@ public class TrombiActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        personDAO = new PersonDataDAO();
-        //personDAO = new PersonSQLLiteDAO(PersonDBHelper.getInstance(this));
+        //personDAO = new PersonDataDAO();
+        personDAO = new PersonSQLLiteDAO(PersonDBHelper.getInstance(this));
         setContentView(R.layout.activity_trombi);
 
         //PersonDataDAO p = new PersonDataDAO();

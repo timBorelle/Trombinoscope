@@ -8,19 +8,25 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import timothee.trombinoscope.DAO.IPersonData;
 import timothee.trombinoscope.DAO.PersonDataDAO;
+import timothee.trombinoscope.DAO.PersonSQLLiteDAO;
 import timothee.trombinoscope.R;
 import timothee.trombinoscope.dto.Person;
+import timothee.trombinoscope.sqlite.PersonDBHelper;
 
 public class ConfigActivity extends AppCompatActivity {
 
     EditText prenom, nom, red, green, blue;
     Button ajouterP;
 
+    IPersonData personDAO;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        final PersonDataDAO personDAO = new PersonDataDAO();
+        //final PersonDataDAO personDAO = new PersonDataDAO();
+        personDAO   = new PersonSQLLiteDAO(PersonDBHelper.getInstance(this));
         //personDAO = new PersonDataDAO(PersonDBHelper.getInstance(this));
         setContentView(R.layout.activity_config);
 
