@@ -6,8 +6,10 @@ import android.widget.ListView;
 
 import timothee.trombinoscope.DAO.IPersonData;
 import timothee.trombinoscope.DAO.PersonDataDAO;
+import timothee.trombinoscope.DAO.PersonSQLLiteDAO;
 import timothee.trombinoscope.R;
 import timothee.trombinoscope.adapter.PersonneAdapter;
+import timothee.trombinoscope.sqlite.PersonDBHelper;
 
 public class TrombiActivity extends AppCompatActivity {
 
